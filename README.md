@@ -2,7 +2,7 @@
 
 ## Installation
 
-You can install mrse directly from GitHub. Using a Python Virtual Environment is recommended.
+You may install mrse directly from GitHub. Using a Python Virtual Environment is recommended.
 
     pip install git+https://github.com/DavidRivasPhD/mrse
 
