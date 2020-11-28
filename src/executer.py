@@ -6,6 +6,7 @@ from writer import printout
 from searcher import search
 from abstracter import fetch
 
+
 def execute(query, database, results_number):
     """
     Executes query and outputs a number of the top search results
@@ -21,8 +22,3 @@ def execute(query, database, results_number):
     printout(records)
 
     return
-
-
-
-
-

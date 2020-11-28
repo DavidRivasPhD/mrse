@@ -4,6 +4,7 @@ Module to use the search engine
 
 from Bio import Entrez
 
+
 def search(query, database, results_number):
     """
     Searches a NIH database by using a NIH's relevance/best-match/AI algorithm through Bio-Entrez

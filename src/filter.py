@@ -2,6 +2,7 @@
 Module to allow user to select a search filter
 """
 
+
 def filter_selector(query):
     """
     Selects filter
@@ -17,23 +18,19 @@ def filter_selector(query):
     6 = Review \n \
     7 = Systematic Review \n Enter the filter number: ")
 
-    if (selected_filter == "1"):
+    if selected_filter == "1":
         query = query + " AND Clinical Trial[pt]"
-    elif (selected_filter == "2"):
+    elif selected_filter == "2":
         query = query + " AND Meta-Analysis[pt]"
-    elif (selected_filter == "3"):
+    elif selected_filter == "3":
         query = query + " AND Personal Narrative[pt]"
-    elif (selected_filter == "4"):
+    elif selected_filter == "4":
         query = query + " AND Preprint[pt]"
-    elif (selected_filter == "5"):
+    elif selected_filter == "5":
         query = query + " AND Randomized Controlled Trial[pt]"
-    elif (selected_filter == "6"):
+    elif selected_filter == "6":
         query = query + " AND Review[pt]"
-    elif (selected_filter == "7"):
+    elif selected_filter == "7":
         query = query + " AND Systematic Review[pt]"
 
     return query
-
-
-
-

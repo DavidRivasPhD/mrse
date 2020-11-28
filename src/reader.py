@@ -5,6 +5,7 @@ Module to read the query and other inputs
 from Bio import Entrez
 from filter import filter_selector
 
+
 def inputnow():
     """
     Reads the inputs' values
@@ -20,7 +21,7 @@ def inputnow():
     query = input("enter your search query: ")
 
     filter_option = input("would you like to use advanced search filter? (yes/no): ")
-    if (filter_option == "yes"):
+    if filter_option == "yes":
         query = filter_selector(query)
 
     return query, results_number

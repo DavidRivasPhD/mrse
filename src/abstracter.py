@@ -5,6 +5,7 @@ Module to fetch abstracted info on each article in the top search results
 from Bio import Entrez
 from Bio import Medline
 
+
 def fetch(query_key, webenv, database, results_number):
     """
     Fetches abstracted info from NIH databases for a number of articles with corresponding top search results' ids in (query_key, webenv)
@@ -26,5 +27,3 @@ def fetch(query_key, webenv, database, results_number):
     handle.close()
 
     return records
-
-

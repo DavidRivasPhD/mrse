@@ -2,6 +2,7 @@
 Module to print out the output
 """
 
+
 def printout(records):
     """
     Prints out abstracted info, specifically, certain NIH database fields of the top search results
@@ -15,7 +16,7 @@ def printout(records):
         print("Source:", record.get("SO", "?"))
         print("Abstract:", record.get("AB", "?"))
         print("Publication Type:", record.get("PT", "?"))
-        if (record.get("PMC", "?") != "?"):
+        if record.get("PMC", "?") != "?":
             print("URL:", "https://www.ncbi.nlm.nih.gov/pmc/articles/" + record.get("PMC", "?") + "/")
         print("")
 

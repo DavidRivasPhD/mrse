@@ -16,4 +16,5 @@ execute(query, database, results_number)
 database = "pmc"
 execute(query, database, results_number)
 
-print("If you are not satisfied with the search results, try shorter/longer/equivalent queries with/without a filter. Thank you.")
+print("If you are not satisfied with the search results, try shorter/longer/equivalent queries with/without a filter.")
+print('Thank you.')
