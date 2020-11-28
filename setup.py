@@ -18,7 +18,7 @@ setup(name="mrse",
       },
       license="Apache 2.0: http://www.apache.org/licenses/LICENSE-2.0",
       packages=find_packages(),
-      #package_dir={"": "src/python"},
+      # package_dir={"": "src/python"},
       keywords="search embedding machine-learning nlp medical scientific papers",
       python_requires=">=3.6",
       entry_points={
