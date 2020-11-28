@@ -19,4 +19,4 @@ def search(query, database, results_number):
     query_key = record["QueryKey"]
     webenv = record["WebEnv"]
 
-    return query_key, webenv;
+    return query_key, webenv

@@ -23,4 +23,4 @@ def inputnow():
     if (filter_option == "yes"):
         query = filter_selector(query)
 
-    return query, results_number;
+    return query, results_number
