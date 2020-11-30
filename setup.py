@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
     DESCRIPTION = f.read()
 
 setup(name="mrse",
-      version="1.0.0",
+      version="1.2.0",
       author="Blockchain Guru",
       description="AI-powered literature discovery and review engine for medical/scientific papers",
       long_description=DESCRIPTION,
@@ -23,7 +23,7 @@ setup(name="mrse",
       python_requires=">=3.6",
       entry_points={
           "console_scripts": [
-              "mrse = mrse.shell:main",
+              "mrse-search = src.main:main",
           ],
       },
       install_requires=[
