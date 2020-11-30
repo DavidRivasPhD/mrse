@@ -24,7 +24,7 @@ def main():
     print("If you are not satisfied with the search results, try shorter/longer/equivalent queries with/without a filter.")
     print('Thank you.')
 
-if __name__ == "__name__":
+if __name__ == "__main__":
     # execute only if run as a script
     main()
 
