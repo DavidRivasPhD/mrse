@@ -23,7 +23,7 @@ setup(name="mrse",
       python_requires=">=3.6",
       entry_points={
           "console_scripts": [
-              "mrse-search = src.main:main",
+              "mrse-search = src.__main__:main",
           ],
       },
       install_requires=[
