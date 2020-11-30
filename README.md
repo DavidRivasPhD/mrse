@@ -12,7 +12,7 @@ Python 3.6+ is supported
 ## Running queries
 To run queries enter the following command in your Linux terminal:
 
-  ` ~$ python3 mrse/src `
+  ` ~$ python3 ~/.local/lib/python3.8/site-packages/src/ `
        
 
 
