@@ -17,13 +17,13 @@ setup(name="mrse",
           "Source Code": "https://github.com/DavidRivasPhD/mrse",
       },
       license="Apache 2.0: http://www.apache.org/licenses/LICENSE-2.0",
-      packages=find_packages(where="src/"),
-      package_dir={"": "src/"},
+      packages=find_packages(),
+      # package_dir={"": "src/"},
       keywords="search embedding machine-learning nlp medical scientific papers",
       python_requires=">=3.6",
       entry_points={
           "console_scripts": [
-              "mrse-search = __main__:main",
+              "mrse-search = src.__main__:main",
           ],
       },
       install_requires=[
