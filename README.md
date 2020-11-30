@@ -4,7 +4,7 @@
 
 You may install mrse directly from GitHub. Using a Python Virtual Environment is recommended.
 
-    pip install git+https://github.com/DavidRivasPhD/mrse
+    pip3 install git+https://github.com/DavidRivasPhD/mrse
 
 Python 3.6+ is supported
 
